@@ -1,21 +1,3 @@
-/*
-get_next(hand(1,1,1,1,bottom), X, []).
-setof(X, get_next(hand(1,1,2,0,bottom),X,[]), Xs).
-
-forced_win(hand(0,0,1,2,bottom), []).
-forced_win(hand(3,0,1,2,bottom), []).
-forced_win(hand(0,3,1,1,bottom), []).
-
-forced_win(hand(1,1,1,1,bottom), []).
-
-forced_win(hand(2,1,1,1,top),[]).
-
-forced_win(hand(2, 1, 3, 1, bottom),[]).
-forced_win(hand(2, 1, 1, 2, bottom),[]).
-forced_win(hand(2, 1, 2, 1, bottom),[]).
-forced_win(hand(2, 1, 1, 3, bottom),[]).
-*/
-
 tap(From, To, ToNew) :-
 	From \= 0,
 	Total is From + To,
